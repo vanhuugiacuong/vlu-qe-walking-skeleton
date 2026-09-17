@@ -6,7 +6,7 @@
  * @returns {boolean} true nếu thông tin hợp lệ, ngược lại là false
  */
 function login(username, password) {
-  return username === 'admin' && password === '1234';
+  return username === 'admin' && password === '123';
 }
 
 // Xuất hàm để Jest có thể sử dụng trong môi trường Node.js.
